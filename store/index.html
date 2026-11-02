@@ -4,17 +4,32 @@
 <title>Hamza Store</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-body{font-family:Arial;text-align:center;padding:40px;background:#f5f5f5}
-.box{background:white;padding:30px;border-radius:15px;box-shadow:0 4px 10px #0001;max-width:400px;margin:auto}
-a{color:white;background:black;padding:12px 20px;border-radius:8px;text-decoration:none;display:inline-block;margin-top:15px}
+body{font-family:Arial;background:#f5f5f5;margin:0;padding:20px;text-align:center}
+.products{display:flex;flex-wrap:wrap;justify-content:center;gap:20px}
+.card{background:white;width:300px;border-radius:15px;padding:15px;box-shadow:0 4px 10px #0001}
+.card img{width:100%;border-radius:10px;height:200px;object-fit:cover}
+.price{color:green;font-weight:bold;font-size:22px}
+.btn{display:block;background:black;color:white;padding:12px;border-radius:25px;text-decoration:none;margin-top:10px}
 </style>
 </head>
 <body>
-<div class="box">
-<h1>My Store</h1>
-<p>Welcome to Hamza Ameer Store</p>
-<p>Products coming soon...</p>
-<a href="/">Back to Home</a>
+<h1>🛒 Hamza's Store</h1>
+<div class="products">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=500">
+<h3>M10 Wireless Earbuds</h3>
+<p>High Bass + Power Bank</p>
+<p class="price">Rs. 1,499</p>
+<a class="btn" href="https://wa.me/923490573852?text=M10 chahiye">Order on WhatsApp</a>
 </div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500">
+<h3>S8 Ultra Smartwatch</h3>
+<p>For Boys & Girls</p>
+<p class="price">Rs. 2,199</p>
+<a class="btn" href="https://wa.me/923490573852?text=S8 Watch chahiye">Order Now</a>
+</div>
+</div>
+<br><a href="/">Back to Home</a>
 </body>
 </html>
